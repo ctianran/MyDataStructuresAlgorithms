@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * Created by Tianran on 1/26/2017.
  */
 public class SortByTwoStacks {
-	public static Deque<Integer> sort(Deque<Integer> inStack) {
+	public Deque<Integer> sort(Deque<Integer> inStack) {
 		Deque<Integer> outStack = new LinkedList<Integer>();
 		if(inStack.isEmpty()) {
 			return outStack;
@@ -48,7 +48,8 @@ public class SortByTwoStacks {
 		inStack.offerFirst(6);
 		inStack.offerFirst(4);
 
-		Deque<Integer> outStack = sort(inStack);
+		SortByTwoStacks sol = new SortByTwoStacks();
+		Deque<Integer> outStack = sol.sort(inStack);
 
 		while(!outStack.isEmpty()) {
 			System.out.println(outStack.pollFirst());
