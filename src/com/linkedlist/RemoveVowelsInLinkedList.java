@@ -35,4 +35,5 @@ public class RemoveVowelsInLinkedList {
 		}
 		return dummy.next;
 	}
+
 }
