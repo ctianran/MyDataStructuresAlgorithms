@@ -61,5 +61,6 @@ public class IntersectionOfTwoLists {
 		IntersectionOfTwoLists sol = new IntersectionOfTwoLists();
 		ListNode res = sol.intersection(n1, h1);
 		System.out.println(res.val);
+
 	}
 }
