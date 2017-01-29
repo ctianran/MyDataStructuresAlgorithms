@@ -44,4 +44,22 @@ public class IntersectionOfTwoLists {
 		}
 		return length;
 	}
+
+	public static void main(String[] args) {
+		ListNode n1 = new ListNode(1);
+		ListNode n2 = new ListNode(2);
+		ListNode n3 = new ListNode(3);
+		ListNode n4 = new ListNode(4);
+
+		ListNode h1 = new ListNode(5);
+
+		n1.next = n2;
+		n2.next = n3;
+		n3.next = n4;
+		h1.next = n1;
+
+		IntersectionOfTwoLists sol = new IntersectionOfTwoLists();
+		ListNode res = sol.intersection(n1, h1);
+		System.out.println(res.val);
+	}
 }
