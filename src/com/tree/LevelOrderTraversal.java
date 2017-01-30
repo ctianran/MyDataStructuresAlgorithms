@@ -29,6 +29,37 @@ public class LevelOrderTraversal {
 		return result;
 	}
 
+	public void levelRecursive(TreeNode root) {
+		if(root == null) {
+			return;
+		}
+		int height = getHeight(root);
+		for(int i = 1; i <= height; i++) {
+			helper(root, i);
+			System.out.println();
+		}
+	}
+
+	private void helper(TreeNode root, int height) {
+		if(root == null) {
+			return;
+		}
+		if(height == 1) {
+			System.out.print(root.val + " ");
+		} else {
+			helper(root.left, height - 1);
+			helper(root.right, height - 1);
+		}
+	}
+
+	private int getHeight(TreeNode root) {
+		if(root == null) {
+			return 0;
+		}
+		return Math.max(getHeight(root.left), getHeight(root.right)) + 1;
+	}
+
+
 	public static void main(String[] args) {
 		TreeNode n1 = new TreeNode(1);
 		TreeNode n2 = new TreeNode(2);
@@ -48,5 +79,7 @@ public class LevelOrderTraversal {
 		LevelOrderTraversal sol = new LevelOrderTraversal();
 		List<Integer> res = sol.level(n1);
 		System.out.println(res);
+
+		sol.levelRecursive(n1);
 	}
 }

@@ -38,6 +38,37 @@ public class InOrderTraversal {
 		return result;
 	}
 
+	public List<Integer> inorderNoStack(TreeNode root) {
+		List<Integer> result = new ArrayList<>();
+		if(root == null) {
+			return result;
+		}
+		TreeNode cur = root;
+		TreeNode prev = null;
+
+		while(cur != null) {
+			if(cur.left == null) {
+				result.add(cur.val);
+				cur = cur.right;
+			} else {
+				prev = cur.left;
+				while(prev.right != null && prev.right != cur) {
+					prev = prev.right;
+				}
+
+				if(prev.right == null) {
+					prev.right = cur;
+					cur = cur.left;
+				} else {
+					prev.right = null;
+					result.add(cur.val);
+					cur = cur.right;
+				}
+			}
+		}
+		return result;
+	}
+
 	public static void main(String[] args) {
 		TreeNode n1 = new TreeNode(1);
 		TreeNode n2 = new TreeNode(2);
@@ -60,5 +91,8 @@ public class InOrderTraversal {
 
 		List<Integer> res = sol.inorderIterative(n1);
 		System.out.println(res);
+
+		List<Integer> res1 = sol.inorderNoStack(n1);
+		System.out.println(res1);
 	}
 }
