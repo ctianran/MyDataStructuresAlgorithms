@@ -31,5 +31,6 @@ public class Main {
 		TestOne sol = new TestOne();
 		int num = sol.count(n1, 1, 4);
 		System.out.println(num);
+
 	}
 }
