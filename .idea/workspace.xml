@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeekingIterator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeekingIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iterator/PeekingIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxPathSumRootToLeaf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tree/MaxPathSumRootToLeaf.java">
+      <file leaf-file-name="ConstructMaxPathSumList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/linkedlist/ConstructMaxPathSumList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -67,7 +67,7 @@
       <file leaf-file-name="PathSumToTarget.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tree/PathSumToTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
+            <state relative-caret-position="-599">
               <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,29 +76,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyclicIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iterator/CyclicIterator.java">
+      <file leaf-file-name="MaxSubPathSumRootToLeaf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tree/MaxSubPathSumRootToLeaf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="52" column="19" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="65" selection-end-column="18" />
+            <state relative-caret-position="316">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructBTwithLevelOrderAndInOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBTwithLevelOrderAndInOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="721">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#1007#1022#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListOfListIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iterator/ListOfListIterator.java">
+      <file leaf-file-name="ConstructBSTwithPreOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBSTwithPreOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#899#914#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="457">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructBSTwithPostOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBSTwithPostOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,28 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstIntersectionOfKLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/linkedlist/FirstIntersectionOfKLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlattenMultiLevelLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/linkedlist/FlattenMultiLevelLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,11 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/chentianran/ValidTriangles.java" />
-        <option value="$PROJECT_DIR$/src/com/chentianran/TestOne.java" />
-        <option value="$PROJECT_DIR$/src/mockinterview/TwoDifference.java" />
-        <option value="$PROJECT_DIR$/src/com/chentianran/SortByThreeStacks.java" />
-        <option value="$PROJECT_DIR$/src/com/chentianran/SortByTwoStacks.java" />
         <option value="$PROJECT_DIR$/src/com/linkedlist/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/linkedlist/ReversePairs.java" />
         <option value="$PROJECT_DIR$/src/com/linkedlist/ReverseKNodes.java" />
@@ -220,6 +208,11 @@
         <option value="$PROJECT_DIR$/src/com/iterator/TreeInorderIterator.java" />
         <option value="$PROJECT_DIR$/src/com/chentianran/Main.java" />
         <option value="$PROJECT_DIR$/src/com/iterator/PeekingIterator.java" />
+        <option value="$PROJECT_DIR$/src/com/linkedlist/ConstructMaxPathSumList.java" />
+        <option value="$PROJECT_DIR$/src/com/tree/ConstructBTwithLevelOrderAndInOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/tree/ConstructBSTwithLevelOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/tree/ConstructBSTwithPreOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/tree/ConstructBSTwithPostOrder.java" />
       </list>
     </option>
   </component>
@@ -230,8 +223,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2010" />
-    <option name="y" value="25" />
+    <option name="x" value="81" />
     <option name="width" value="1805" />
     <option name="height" value="1084" />
   </component>
@@ -932,15 +924,15 @@
       <workItem from="1484431767300" duration="60199000" />
       <workItem from="1484984894676" duration="17657000" />
       <workItem from="1485365421824" duration="11119000" />
-      <workItem from="1485461772985" duration="84084000" />
+      <workItem from="1485461772985" duration="91402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180507000" />
+    <option name="totallyTimeSpent" value="187825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2010" y="25" width="1805" height="1084" extended-state="0" />
+    <frame x="81" y="0" width="1805" height="1084" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1006,46 +998,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/chentianran/SpecialSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chentianran/TestOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkedlist/RemoveKthNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkedlist/ReverseKNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/linkedlist/ReversePairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="46" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/linkedlist/RemoveKthNodeFromTail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1353,29 +1305,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tree/MaxSubPathSumRootToLeaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tree/MaxPathSumRootToLeaf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tree/PathSumToTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,6 +1391,68 @@
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/linkedlist/ConstructMaxPathSumList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/PathSumToTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/MaxSubPathSumRootToLeaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBTwithLevelOrderAndInOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBSTwithLevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBSTwithPreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tree/ConstructBSTwithPostOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
