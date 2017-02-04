@@ -13,7 +13,7 @@ public class FindAllSubsets {
 			return result;
 		}
 		StringBuilder sb = new StringBuilder();
-		helper(input, sb, 0, result);
+		helperDedup(input, sb, 0, result);
 		return result;
 	}
 
@@ -38,8 +38,23 @@ public class FindAllSubsets {
 		}
 	}
 
+	private void helperDedup(String input, StringBuilder sb, int index, List<String> result) {
+		if(index == input.length()) {
+			result.add(sb.toString());
+			return;
+		}
+		sb.append(input.charAt(index));
+		helperDedup(input, sb, index + 1, result);
+		sb.deleteCharAt(sb.length() - 1);
+
+		while(index + 1 < input.length() && input.charAt(index) == input.charAt(index + 1)) {
+			index++;
+		}
+		helperDedup(input, sb, index + 1, result);
+	}
+
 	public static void main(String[] args) {
-		String input = "abc";
+		String input = "abbbc";
 		FindAllSubsets sol = new FindAllSubsets();
 		List<String> res = sol.subSet(input);
 		System.out.println(res);
