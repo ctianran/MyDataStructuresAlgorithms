@@ -28,6 +28,9 @@ public class AllSubSetsWithSizeK {
 		helper(input, index + 1, k, cur, result);
 		cur.remove(cur.size()- 1);
 
+		while(index + 1 < input.length && input[index] == input[index+1]) {
+			index++;
+		}
 		helper(input, index + 1, k , cur, result);
 	}
 
@@ -39,12 +42,15 @@ public class AllSubSetsWithSizeK {
 		for(int i = index; i < input.length; i++) {
 			cur.add(input[i]);
 			helperII(input, i + 1, k, cur, result);
+			while(i + 1 < input.length && input[i] == input[i+1]) {
+				i++;
+			}
 			cur.remove(cur.size() - 1);
 		}
 	}
 
 	public static void main(String[] args) {
-		int[] input = new int[]{2, 1, 3, 4};
+		int[] input = new int[]{1, 2, 2, 2, 3};
 		AllSubSetsWithSizeK sol = new AllSubSetsWithSizeK();
 		List<List<Integer>> res = sol.subsets(input, 2);
 		System.out.println(res);

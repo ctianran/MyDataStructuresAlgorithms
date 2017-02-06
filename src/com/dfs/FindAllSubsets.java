@@ -13,7 +13,7 @@ public class FindAllSubsets {
 			return result;
 		}
 		StringBuilder sb = new StringBuilder();
-		helperDedup(input, sb, 0, result);
+		helperDedupII(input, sb, 0, result);
 		return result;
 	}
 
@@ -32,7 +32,7 @@ public class FindAllSubsets {
 	private void helperII(String input, StringBuilder sb, int index, List<String> result) {
 		result.add(sb.toString());
 		for(int i = index; i < input.length(); i++) {
-			sb.append(input.charAt(index));
+			sb.append(input.charAt(i));
 			helperII(input, sb, i + 1, result);
 			sb.deleteCharAt(sb.length() - 1);
 		}
@@ -51,6 +51,19 @@ public class FindAllSubsets {
 			index++;
 		}
 		helperDedup(input, sb, index + 1, result);
+	}
+
+	private void helperDedupII(String input, StringBuilder sb, int index, List<String> result) {
+		result.add(sb.toString());
+
+		for(int i = index; i < input.length(); i++) {
+			sb.append(input.charAt(i));
+			helperDedupII(input, sb, i + 1, result);
+			while(i + 1 < input.length() && input.charAt(i) == input.charAt(i + 1)) {
+				i++;
+			}
+			sb.deleteCharAt(sb.length() - 1);
+		}
 	}
 
 	public static void main(String[] args) {
