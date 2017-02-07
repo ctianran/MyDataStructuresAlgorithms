@@ -52,6 +52,7 @@ public class BoggleGame {
 
 			if(helper(newX, newY, board, word, index + 1, visited)) {
 				return true;
+
 			}
 		}
 		visited[x][y] = false;

@@ -1,9 +1,6 @@
 package com.arrays;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by Tianran on 2/5/2017.
@@ -20,7 +17,7 @@ public class CommonElementsInKArrays {
 			for(int num : result) {
 				set.add(num);
 			}
-			result.clear();
+			result = new ArrayList<>();
 			for(int j = 0; j < input.get(i).size(); j++) {
 				if(set.contains(input.get(i).get(j))) {
 					result.add(input.get(i).get(j));
@@ -32,25 +29,14 @@ public class CommonElementsInKArrays {
 
 	public static void main(String[] args) {
 		List<List<Integer>> lists = new ArrayList<List<Integer>>();
-		List<Integer> l1 = new ArrayList<>();
-		List<Integer> l2 = new ArrayList<>();
-		List<Integer> l3 = new ArrayList<>();
+		List<Integer> l1 = Arrays.asList(1, 2, 3, 4);
+		List<Integer> l2 = Arrays.asList(2, 3, 4, 5);
+		List<Integer> l3 = Arrays.asList(3, 4, 5, 6);
 
-		l1.add(1);
-		l1.add(2);
-		l1.add(3);
-		l1.add(4);
-		l2.add(2);
-		l2.add(3);
-		l2.add(4);
-		l2.add(5);
-		l3.add(3);
-		l3.add(4);
-		l3.add(5);
-		l3.add(6);
 		lists.add(l1);
 		lists.add(l2);
 		lists.add(l3);
+
 
 		CommonElementsInKArrays sol = new CommonElementsInKArrays();
 		List<Integer> res = sol.common(lists);
