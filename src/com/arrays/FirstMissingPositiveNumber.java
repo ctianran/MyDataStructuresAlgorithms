@@ -29,7 +29,7 @@ public class FirstMissingPositiveNumber {
 
 
 	public static void main(String[] args) {
-		int[] input = new int[] {-1, 0, 2, 3};
+		int[] input = new int[] {-1, 5, 6, 7};
 		FirstMissingPositiveNumber sol = new FirstMissingPositiveNumber();
 		int res = sol.missing(input);
 		System.out.println(res);
