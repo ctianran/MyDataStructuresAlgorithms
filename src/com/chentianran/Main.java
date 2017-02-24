@@ -2,8 +2,7 @@ package com.chentianran;
 
 import com.tree.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Tianran on 1/8/2017.
@@ -24,6 +23,15 @@ public class Main {
 		String s = "abc";
 		System.out.println(s.substring(1, 3));
 
+		int[] arr = new int[] {1, 3, 2};
+		Integer[] intArr = new Integer[arr.length];
+		for(int i = 0; i < arr.length; i++) {
+			intArr[i] = arr[i];
+		}
+		PriorityQueue<Integer> minHeap = new PriorityQueue<>(Collections.reverseOrder());
+		System.out.println(minHeap.poll());
+		System.out.println(minHeap.poll());
+		System.out.println(minHeap.poll());
 
 	}
 

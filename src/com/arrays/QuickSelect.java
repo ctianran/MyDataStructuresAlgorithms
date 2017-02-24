@@ -5,23 +5,20 @@ package com.arrays;
  */
 public class QuickSelect {
 	public int quickSelect(int[] array, int k) {
-		if(array == null || array.length == 0 || k == 0) {
+		if(array == null || array.length == 0 || k == 0 || k > array.length) {
 			return -1;
 		}
 		return helper(array, 0, array.length - 1, k);
 	}
 
 	private int helper(int[] array, int left, int right, int k) {
-		if(left >= right) {
-			return array[left];
-		}
 		int pivot = partition(array, left, right);
 		if(pivot == k - 1){
 			return array[pivot];
-		} else if (pivot > k - 1) {
-			return helper(array, left, pivot - 1, k);
+		} else if (pivot < k - 1) {
+			return helper(array, pivot + 1, right, k);
 		} else {
-			return helper(array, pivot + 1, right, k - (pivot - left + 1));
+			return helper(array, left, pivot -1, k);
 		}
 	}
 
@@ -51,7 +48,7 @@ public class QuickSelect {
 	public static void main(String[] args) {
 		int[] input = new int[] {3, 1, 2, 5, 4};
 		QuickSelect sol = new QuickSelect();
-		int res = sol.quickSelect(input, 3);
+		int res = sol.quickSelect(input, 4);
 		System.out.println(res);
 	}
 }
