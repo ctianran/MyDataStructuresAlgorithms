@@ -9,8 +9,10 @@ import java.util.List;
 public class GraphNode {
 	int val;
 	List<GraphNode> neighbors;
+	State state;
 	public GraphNode(int val) {
 		this.val = val;
+		state = State.UNVISITED;
 		neighbors = new ArrayList<GraphNode>();
 	}
 }
