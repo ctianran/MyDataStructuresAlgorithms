@@ -6,15 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b06e287-e041-487e-bbad-e74ed71089b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/graph/PrintGraphAllPaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/graph/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/matrix/SearchAbsoluteDiffInTwoSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/matrix/SearchSumInTwoSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tree/PrintBinaryTreeAllPaths.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyDataStructuresAlgorithms/com/graph/GraphNode.class" afterPath="$PROJECT_DIR$/out/production/MyDataStructuresAlgorithms/com/graph/GraphNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/graph/GraphNode.java" afterPath="$PROJECT_DIR$/src/com/graph/GraphNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java" afterPath="$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chentianran/ReplacementAandB.java" afterPath="$PROJECT_DIR$/src/com/chentianran/ReplacementAandB.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,16 +28,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckContradiction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dfs/CheckContradiction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FlipSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sorting/FlipSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,8 +96,18 @@
       <file leaf-file-name="MinimumDiffInThreeSortedArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="410">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplacementAandB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chentianran/ReplacementAandB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/linkedlist/LongestSubListContainKdistinctValues.java" />
         <option value="$PROJECT_DIR$/src/com/iterator/CyclicIterator.java" />
         <option value="$PROJECT_DIR$/src/com/iterator/CountIterator.java" />
         <option value="$PROJECT_DIR$/src/com/linkedlist/CacheNode.java" />
@@ -213,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/com/matrix/SearchInTwoSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/matrix/SearchSumInTwoSortedArray.java" />
         <option value="$PROJECT_DIR$/src/com/matrix/SearchAbsoluteDiffInTwoSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/chentianran/ReplacementAandB.java" />
         <option value="$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java" />
       </list>
     </option>
@@ -224,8 +217,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1918" />
-    <option name="y" value="19" />
+    <option name="x" value="2070" />
     <option name="width" value="1708" />
     <option name="height" value="1061" />
   </component>
@@ -296,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tree" />
+              <option name="myItemId" value="matrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +310,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="matrix" />
+              <option name="myItemId" value="chentianran" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -887,15 +879,15 @@
       <workItem from="1487804381827" duration="1924000" />
       <workItem from="1487810599432" duration="25911000" />
       <workItem from="1488343837569" duration="9398000" />
-      <workItem from="1488408891682" duration="3447000" />
+      <workItem from="1488408891682" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456478000" />
+    <option name="totallyTimeSpent" value="458592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1918" y="19" width="1708" height="1061" extended-state="0" />
+    <frame x="2070" y="0" width="1708" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -961,13 +953,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/linkedlist/LongestSubListContainKdistinctValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iterator/CyclicIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1332,10 +1317,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chentianran/ReplacementAandB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arrays/MinimumDiffInThreeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="410">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>

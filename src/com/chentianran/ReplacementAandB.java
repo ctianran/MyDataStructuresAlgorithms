@@ -46,4 +46,8 @@ public class ReplacementAandB {
 		}
 		return count;
 	}
+
+	public static void main(String[] args) {
+
+	}
 }
