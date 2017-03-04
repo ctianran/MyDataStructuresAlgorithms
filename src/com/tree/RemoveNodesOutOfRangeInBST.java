@@ -45,7 +45,7 @@ public class RemoveNodesOutOfRangeInBST {
 		level.levelRecursive(n1);
 
 		RemoveNodesOutOfRangeInBST sol = new RemoveNodesOutOfRangeInBST();
-		TreeNode res = sol.removeNodes(n1, 1, 4);
+		TreeNode res = sol.removeNodes(n1, 5, 5);
 		level.levelRecursive(res);
 	}
 }

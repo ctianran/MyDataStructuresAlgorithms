@@ -12,31 +12,30 @@ public class HeapSort {
 
 		for(int i = input.length - 1; i > 0; i--) {
 			swap(input, 0, i);
-			percolateDown(input, 0, i);
+			percolateDown(input, 0, i - 1);
 		}
 		return input;
 	}
 
 	private void heapify(int[] array) {
-		for(int i = (array.length - 2) / 2; i >= 0; i--) {
-			percolateDown(array, i, array.length);
+		for(int i = array.length/2 - 1; i >= 0; i--) {
+			percolateDown(array, i, array.length - 1);
 		}
 	}
 
 	private void percolateDown(int[] array, int index, int size) {
-		while(index <= (size - 2) / 2) {
-			int leftChild = index * 2 + 1;
-			int rightChild = index * 2 + 2;
-			int swapCandidate = leftChild;
-			if(rightChild <= size - 1 && array[rightChild] > array[leftChild]) {
-				swapCandidate = rightChild;
-			}
-			if(array[index] < array[swapCandidate]) {
-				swap(array, index, swapCandidate);
-			} else {
-				break;
-			}
-			index = swapCandidate;
+		int left = index * 2 + 1;
+		int right = index * 2 + 2;
+		int max = index;
+		if(left <= size && array[left] > array[max]) {
+			max = left;
+		}
+		if(right <= size && array[right] > array[max]) {
+			max = right;
+		}
+		if(max != index) {
+			swap(array, index, max);
+			percolateDown(array, max, size);
 		}
 	}
 
