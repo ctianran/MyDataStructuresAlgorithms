@@ -48,7 +48,7 @@ public class QuickSelect {
 	public static void main(String[] args) {
 		int[] input = new int[] {3, 1, 2, 5, 4};
 		QuickSelect sol = new QuickSelect();
-		int res = sol.quickSelect(input, 4);
+		int res = sol.quickSelect(input, 5);
 		System.out.println(res);
 	}
 }
