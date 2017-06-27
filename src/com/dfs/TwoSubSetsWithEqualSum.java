@@ -41,7 +41,7 @@ public class TwoSubSetsWithEqualSum {
 	}
 
 	public static void main(String[] args) {
-		int[] input = new int[] {1, 2, 2, 3};
+		int[] input = new int[] {1, 2, 2, 3, 4, 4};
 		TwoSubSetsWithEqualSum sol = new TwoSubSetsWithEqualSum();
 		List<List<Integer>> res = sol.subset(input);
 		System.out.println(res);
