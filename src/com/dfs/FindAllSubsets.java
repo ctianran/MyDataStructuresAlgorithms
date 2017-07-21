@@ -66,10 +66,40 @@ public class FindAllSubsets {
 		}
 	}
 
+
+	public List<String> getAllRecur(String input) {
+		List<String> res = helperRecu(input, input.length() - 1);
+		return res;
+	}
+
+	private List<String> helperRecu(String input, int index) {
+		if(index == -1) {
+			List<String> res = new ArrayList<>();
+			StringBuilder sb = new StringBuilder();
+			res.add(sb.toString());
+			return res;
+		}
+
+		List<String> subSol = helperRecu(input, index - 1);
+		List<String> res = new ArrayList<>();
+
+		for(String s : subSol) {
+			//not add element
+			res.add(s);
+			//add new element
+			StringBuilder temp = new StringBuilder(s);
+			temp.append(input.charAt(index));
+			res.add(temp.toString());
+		}
+		return res;
+	}
+
 	public static void main(String[] args) {
-		String input = "abbbc";
+		String input = "abc";
 		FindAllSubsets sol = new FindAllSubsets();
 		List<String> res = sol.subSet(input);
+		List<String> res1 = sol.getAllRecur(input);
 		System.out.println(res);
+		System.out.println(res1);
 	}
 }
