@@ -17,19 +17,17 @@ public class TotalTimeTofinishTaskWithCoolDown {
 			char ch = s.charAt(i);
 			time++;
 			if(map.containsKey(ch) && time - map.get(ch) <= k) {
-				map.put(ch, map.get(ch) + k + 1);
-				time = map.get(ch);
-			} else {
-				map.put(ch, time);
+				time = map.get(ch) + k + 1;
 			}
+			map.put(ch, time);
 		}
-		return map.get(s.charAt(s.length() - 1));
+		return time;
 	}
 
 	public static void main(String[] args) {
 		String s = "AABCB";
 		TotalTimeTofinishTaskWithCoolDown sol = new TotalTimeTofinishTaskWithCoolDown();
-		int res = sol.totalTime(s, 3);
+		int res = sol.totalTime(s, 2);
 		System.out.println(res);
 	}
 }
