@@ -1,5 +1,8 @@
 package com.linkedlist;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * Created by Tianran on 1/28/2017.
  */
@@ -28,6 +31,63 @@ public class FlattenMultiLevelLinkedList {
 		return head;
 	}
 
+	public ListNode flattenII(ListNode head) {
+		if(head == null) {
+			return head;
+		}
+		Deque<ListNode> stack = new LinkedList<>();
+		ListNode cur = head;
+		while(cur != null) {
+			if(cur.child != null) {
+				if(cur.next != null) {
+					stack.offerFirst(cur.next);
+				}
+				cur.next = cur.child;
+			} else if(cur.next == null){
+				cur.next = stack.isEmpty() ? null : stack.pollFirst();
+			}
+			cur = cur.next;
+		}
+		return head;
+	}
+
+	public ListNode flattenIII(ListNode head) {
+		if(head == null) {
+			return head;
+		}
+		ListNode[] last = new ListNode[1];
+		return helper(head, last);
+	}
+
+	private ListNode helper(ListNode head, ListNode[] last) {
+		if(head == null) {
+			return head;
+		}
+		last[0] = head;
+		ListNode next  = head.next;
+		if(head.child != null) {
+			head.next = helper(head.child, last);
+		}
+		if(next != null) {
+			last[0].next = helper(next, last);
+		}
+		return head;
+	}
+
+	public ListNode flattenIV(ListNode head) {
+		if(head == null) {
+			return head;
+		}
+		ListNode cur = head;
+		ListNode next = head.next;
+		if(head.child != null) {
+			head.next = flattenIV(head.child);
+		}
+		if(next != null) {
+			cur.next = flattenIV(next);
+		}
+		return head;
+	}
 
 	public static void main(String[] args) {
 		ListNode n1 = new ListNode(1);
@@ -56,7 +116,7 @@ public class FlattenMultiLevelLinkedList {
 		n10.child = n11;
 
 		FlattenMultiLevelLinkedList sol = new FlattenMultiLevelLinkedList();
-		ListNode res = sol.flattenI(n1);
+		ListNode res = sol.flattenIV(n1);
 
 		while(res != null) {
 			System.out.print(res.val + " ");

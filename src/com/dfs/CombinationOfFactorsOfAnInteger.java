@@ -54,6 +54,5 @@ public class CombinationOfFactorsOfAnInteger {
 		CombinationOfFactorsOfAnInteger sol = new CombinationOfFactorsOfAnInteger();
 		List<List<Integer>> res = sol.combination(12);
 		System.out.println(res);
-
 	}
 }

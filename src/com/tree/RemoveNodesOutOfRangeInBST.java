@@ -11,9 +11,9 @@ public class RemoveNodesOutOfRangeInBST {
 		root.left = removeNodes(root.left, min, max);
 		root.right = removeNodes(root.right, min, max);
 
-		if(root.val >= min && root.val <= max) {
-			return root;
-		}
+		//	if(root.val >= min && root.val <= max) {
+//			return root;
+// 	}
 
 		if(root.val < min) {
 			return root.right;
@@ -45,7 +45,7 @@ public class RemoveNodesOutOfRangeInBST {
 		level.levelRecursive(n1);
 
 		RemoveNodesOutOfRangeInBST sol = new RemoveNodesOutOfRangeInBST();
-		TreeNode res = sol.removeNodes(n1, 5, 5);
+		TreeNode res = sol.removeNodes(n1, 4, 5);
 		level.levelRecursive(res);
 	}
 }
